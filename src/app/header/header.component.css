@@ -18,3 +18,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+a.logo {
+  font-family: bold;
+  padding: 1em;
+}
