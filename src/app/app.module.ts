@@ -8,7 +8,11 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, RouterModule.forRoot([])],
+  imports: [BrowserModule, 
+    FormsModule, 
+    RouterModule.forRoot([
+      {path: '', component: HomeComponent}
+    ])],
   declarations: [AppComponent, HeaderComponent, HomeComponent],
   bootstrap: [AppComponent],
 })
